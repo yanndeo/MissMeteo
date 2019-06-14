@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#inputCityTxt {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgb(147, 41, 112);
+  background-color: transparent;
+  font-size: 18px;
+      color: whitesmoke;
+
+
+
+}
+#inputCityTxt:focus {
+  border-color: green;
+  color: 'green';
+}

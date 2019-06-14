@@ -1,0 +1,16 @@
+{
+  "name": "server-io",
+  "version": "1.0.0",
+  "description": "meteo en temps real avec socketio et reactjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yann Deo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}

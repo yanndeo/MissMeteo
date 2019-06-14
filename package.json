@@ -1,0 +1,16 @@
+{
+  "name": "MERN_SOCKETIO_MYMETEO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server-io && nodemon app.js\" \"cd client-io && npm start\""
+  },
+  "keywords": [],
+  "author": "Yann Deo",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.19.1"
+  }
+}
